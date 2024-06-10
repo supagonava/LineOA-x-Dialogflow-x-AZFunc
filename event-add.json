@@ -1,0 +1,44 @@
+{
+  "responseId": "c8889b9c-5595-4961-ab2b-3e6ab47965da-eaa34d63",
+  "queryResult": {
+    "queryText": "#AddToCart:1",
+    "action": "cart.add",
+    "parameters": {
+      "item_id": 1
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "เพิ่มสินค้ารหัส 1 เข้าตะกร้าแล้ว"
+          ]
+        },
+        "platform": "LINE"
+      },
+      {
+        "text": {
+          "text": [
+            ""
+          ]
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/chatbot-by-supakorn/agent/intents/a4368a94-b23b-46b7-9900-48403e03dd4f",
+      "displayName": "AddItemToCart"
+    },
+    "intentDetectionConfidence": 1,
+    "diagnosticInfo": {
+      "webhook_latency_ms": 4894
+    },
+    "languageCode": "th",
+    "sentimentAnalysisResult": {
+      "queryTextSentiment": {}
+    }
+  },
+  "webhookStatus": {
+    "code": 4,
+    "message": "Webhook call failed. Error: DEADLINE_EXCEEDED, State: URL_TIMEOUT, Reason: TIMEOUT_WEB."
+  }
+}
